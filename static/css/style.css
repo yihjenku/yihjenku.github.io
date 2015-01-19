@@ -130,7 +130,7 @@ div > a{
 	-o-animation: border-fade 2s ease-in-out; /* Opera < 12.1 */
 	animation: border-fade 2s ease-in-out;
 }
-.circle span#a {
+.circle span.letter {
 	opacity: 1;
 	-webkit-animation: letter-fade 2s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: letter-fade 2s ease-in-out; /* Firefox < 16 */
@@ -138,10 +138,10 @@ div > a{
 	-o-animation: letter-fade 2s ease-in-out; /* Opera < 12.1 */
 	animation: letter-fade 2s ease-in-out;
 }
-.circle:hover span#a {
+.circle:hover span.letter {
 	opacity: 0;
 }
-.circle span#b {
+.circle span.text {
 	position: absolute;
 	width: 100%;
 	text-align: center;
@@ -155,7 +155,7 @@ div > a{
 	-o-animation: linktext-fade 2s ease-in-out; /* Opera < 12.1 */
 	animation: linktext-fade 2s ease-in-out;
 }
-.circle:hover span#b {
+.circle:hover span.text {
 	opacity: 1;
 }
 

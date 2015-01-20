@@ -33,6 +33,7 @@ div > p{
 	width: 14%;
 	display: inline-block;
 	margin: 0 auto 40px;
+	min-width: 150px;
 }
 
 div > a{
@@ -259,5 +260,6 @@ br {
 @media screen and (max-width: 640px){
 	.circle-wrapper{
 		display: block;
+		margin: auto;
 	}
 }

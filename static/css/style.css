@@ -142,6 +142,11 @@ div > a{
 .circle:hover span.letter {
 	opacity: 0;
 }
+
+.circle:hover {
+	border: 10px solid #FFFFFF;
+}
+
 .circle span.text {
 	position: absolute;
 	width: 100%;
@@ -155,9 +160,6 @@ div > a{
 	-ms-animation: linktext-fade 2s ease-in-out; /* Internet Explorer */
 	-o-animation: linktext-fade 2s ease-in-out; /* Opera < 12.1 */
 	animation: linktext-fade 2s ease-in-out;
-}
-.circle:hover span.text {
-	opacity: 1;
 }
 
 #Y {

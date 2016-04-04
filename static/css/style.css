@@ -147,6 +147,10 @@ div > a{
 	border: 10px solid #FFFFFF;
 }
 
+.circle:hover span.text {
+	opacity: 1;
+}
+
 .circle span.text {
 	position: absolute;
 	width: 100%;

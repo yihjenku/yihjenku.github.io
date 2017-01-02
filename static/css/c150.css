@@ -1,9 +1,8 @@
 body, html {
 	height: 100%;
 	margin: 0;
-	font: 400 15px/1.8 "Lato", sans-serif;
+	font: 15px "Lato", sans-serif;
 	background-color: transparent;
-	font-size: 1em;
 }
 
 .panel {
@@ -54,6 +53,10 @@ body, html {
 	background-image: url("../img/Nich.jpg");
 	min-height: 100%;
 }
+#yj-panel {
+	background-image: url("../img/Yih-Jen.jpg");
+	min-height: 100%;
+}
 
 .title {
 	position: absolute;
@@ -61,7 +64,7 @@ body, html {
 	left: 0;
 	top: 8%;
 	width: 100%;
-	font: 4em "Oxygen", sans-serif;
+	font: 4rem "Oxygen", sans-serif;
 	letter-spacing: 2px;
 	color: #777;
 	font-weight: 200;
@@ -90,25 +93,53 @@ body, html {
 	background-color: rgba(0, 0, 0, 0.15);
 	padding-bottom: 50px;
 }
-
+#Intro-Scrim {
+	height: 100%;
+}
+.mobile-title {
+	display: none;
+	background-color: #FBFBFB
+}
+h1 {
+	text-align: center;
+	font: 3rem "Oxygen", sans-serif;
+	color: #777;
+	font-weight: 200;
+	margin: 0px;
+	padding-top: 20px;
+}
 h3 {
 	text-align: center;
 	letter-spacing: 5px;
 	text-transform: uppercase;
-	font: 20px "Lato", sans-serif;
+	font: 1.4rem "Lato", sans-serif;
 	margin: 0px;
 	padding: 50px 80px 0px;
 }
 h4 {
 	text-align: center;
 	letter-spacing: 2px;
-	font: 18px "Lato", sans-serif;
+	font: 1.2rem "Lato", sans-serif;
 	margin: 20px 0px 0px;
 }
 
 p {
+	font-size: 1rem;
 	margin: 0px;
 	padding: 20px 80px 0px;
+	line-height: 2rem;
+}
+
+p.signature {
+	text-align: right;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+p#names.signature {
+	padding-bottom: 0px;
+}
+p#date.signature {
+	padding-top: 0px;
 }
 
 .text {
@@ -124,6 +155,7 @@ p {
 
 #Intro {
 	background-image: url("../img/Varsity.jpg");
+	min-height: 100%;
 }
 
 #John {
@@ -161,6 +193,14 @@ p {
 #Nich {
 	background-image: url("../img/Nich.jpg");
 }
+#YJ {
+	background-image: url("../img/Yih-Jen.jpg");
+}
+
+img {
+	display: none;
+	width: 100%;
+}
 
 @media (max-width: 2000px) {
 	.title span.border {
@@ -168,13 +208,28 @@ p {
 		border-width: 5px;
 	}
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+	.panel {
+		display: none;
+	}
+	#Intro, #John, #Twist, #Jeff, #Colin, #Will, #Jenson, #Dave, #Ben, #Nich, #YJ {
+		background-image: none;
+	}
+	.mobile-title {
+		display: block;
+	}
+	img {
+		display: block;
+	}
 	.title {
-		font-size: 3em;
+		font-size: 2rem;
 	}
 	.title span.border {
-		padding: 16px 24px;
-		border-width: 4px;
+		padding: 12px 15px;
+		border-width: 3px;
+	}
+	.scrim {
+		background-color: rgba(0, 0, 0, 0.25);
 	}
 	#dave-panel, #colin-panel, #jeff-panel {
 		background-position: left;
@@ -188,10 +243,16 @@ p {
 	#Jenson {
 		background-position: right;
 	}
+	p {
+		padding: 20px 20px 0px;
+	}
+	h3 {
+		padding: 40px 20px 0px;
+	}
 }
 @media (max-width: 480px) {
 	.title {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 	.title span.border {
 		padding: 12px 15px;

@@ -23,7 +23,7 @@ body, html {
 
 }
 #intro-panel {
-	background-image: url("../img/Ben/Artopolis.jpg");
+	background-image: url("../img/Ben/Artopolis.JPG");
 }
 #intro-text {
 	left: 50%;
@@ -37,7 +37,7 @@ body, html {
             animation: 3s ease 0s normal forwards 1 fadein;
 }
 #happy-panel {
-	background-image: url("../img/Ben/Banyoles.jpg");
+	background-image: url("../img/Ben/Banyoles.JPG");
 }
 #happy-text {
 	left: 7%;
@@ -61,7 +61,7 @@ body, html {
 	color: #fff;
 }
 #running-start-panel {
-	background-image: url("../img/Ben/Henley-1.jpg");
+	background-image: url("../img/Ben/Henley-1.JPG");
 }
 #running-start-text {
 	left: 7%;
@@ -77,7 +77,7 @@ body, html {
 	color: #fff;
 }
 #mountain-panel {
-	background-image: url("../img/Ben/Hurricane-Mountain-1.jpg");
+	background-image: url("../img/Ben/Hurricane-Mountain-1.JPG");
 }
 #mountain-text {
 	left: 7%;
@@ -85,7 +85,7 @@ body, html {
 	color: #000;
 }
 #southwest-panel {
-	background-image: url("../img/Ben/Southwest.jpg");
+	background-image: url("../img/Ben/Southwest.JPG");
 }
 #southwest-text {
 	left: 7%;
@@ -93,7 +93,7 @@ body, html {
 	color: #fff;
 }
 #ice-cream-panel {
-	background-image: url("../img/Ben/Henley-2.jpg");
+	background-image: url("../img/Ben/Henley-2.JPG");
 }
 #ice-cream-text {
 	left: 7%;
@@ -109,7 +109,7 @@ body, html {
 	color: #fff;
 }
 #love-yj-panel {
-	background-image: url("../img/Ben/Hurricane-Mountain-2.jpg");
+	background-image: url("../img/Ben/Hurricane-Mountain-2.JPG");
 }
 #love-yj-text {
 	left: 7%;
